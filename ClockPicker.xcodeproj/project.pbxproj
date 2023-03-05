@@ -11,6 +11,7 @@
 		607C507829B4FF2B00E21057 /* ClockPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607C506D29B4FF2B00E21057 /* ClockPicker.framework */; };
 		607C507D29B4FF2B00E21057 /* ClockPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607C507C29B4FF2B00E21057 /* ClockPickerTests.swift */; };
 		607C507E29B4FF2B00E21057 /* ClockPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 607C507029B4FF2B00E21057 /* ClockPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607C508829B4FF4300E21057 /* ClockPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607C508729B4FF4300E21057 /* ClockPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		607C507129B4FF2B00E21057 /* ClockPicker.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ClockPicker.docc; sourceTree = "<group>"; };
 		607C507729B4FF2B00E21057 /* ClockPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607C507C29B4FF2B00E21057 /* ClockPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPickerTests.swift; sourceTree = "<group>"; };
+		607C508729B4FF4300E21057 /* ClockPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				607C507029B4FF2B00E21057 /* ClockPicker.h */,
+				607C508729B4FF4300E21057 /* ClockPickerView.swift */,
 				607C507129B4FF2B00E21057 /* ClockPicker.docc */,
 			);
 			path = ClockPicker;
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607C507229B4FF2B00E21057 /* ClockPicker.docc in Sources */,
+				607C508829B4FF4300E21057 /* ClockPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 		607C508529B4FF2B00E21057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +414,7 @@
 		607C508629B4FF2B00E21057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
